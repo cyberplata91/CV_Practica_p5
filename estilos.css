@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Establece un margen inferior para el elemento h3 */
+h3 {
+  margin-bottom: 20px; /* Puedes ajustar el valor según tus preferencias */
+}
+
+/* Estilos para secciones */
+.section {
+  padding: 50px 0;
+}
+
+/* Estilos para texto dentro de secciones */
+.section h1,
+.section h2,
+.section h3,
+.section p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para imágenes dentro de secciones */
+.section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el formulario de contacto */
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Estilos para el botón de enviar */
+.btn-info {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+/* Estilos para el botón de enviar al hacer hover */
+.btn-info:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la sección de redes sociales */
+.redes {
+  text-align: center;
+}
+
+.redes h4 {
+  margin-bottom: 15px;
+}
+
+.redes-icono {
+  font-size: 2rem; /* Tamaño de fuente de los iconos */
+  margin: 0 5px; /* Espaciado horizontal entre los iconos */
+  color: #ffffff; /* Color de los iconos (puedes ajustarlo a tu preferencia) */
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  transition: color 0.3s; /* Transición de color al pasar el cursor sobre los iconos */
+}
+
+.redes-icono:hover {
+  color: #ff4500; /* Cambia el color al pasar el cursor sobre los iconos (puedes ajustarlo) */
+}
+
+/* Estilo para el contenedor de los iconos */
+.redes-iconos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.texto-personalizado {
+  color: #070707; /* Cambia este valor al color que prefieras */
+}
